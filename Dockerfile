@@ -1,8 +1,7 @@
 # Copyright (c) 2024 Digital Asset (Switzerland) GmbH and/or its affiliates. All rights reserved.
 # SPDX-License-Identifier: Apache-2.0
-ARG BASE_IMAGE=eclipse-temurin:21-jdk-noble@sha256:f31b224f6e3094e4fa1957779c8602af1be15b982ec840d6dd7ff2fb1726bced
+FROM eclipse-temurin:21-jdk-noble@sha256:a642cdb56c8cac30d1ad062fdc979aebda08cbdb05ed0e9c13a949f8b1e6d9ea
 
-FROM ${BASE_IMAGE}
 
 # Make variable available to the build stage
 ARG BASE_IMAGE
