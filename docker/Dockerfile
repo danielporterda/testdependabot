@@ -1,11 +1,11 @@
 # Copyright (c) 2024 Digital Asset (Switzerland) GmbH and/or its affiliates. All rights reserved.
 # SPDX-License-Identifier: Apache-2.0
+ARG BASE_IMAGE=eclipse-temurin:21-jdk-noble@sha256:71f2d18eea2e834fad8b6b8d5c7ae6effca37b97f3a3da2df5de932ee540c060
 
-FROM eclipse-temurin:21-jdk-noble@sha256:71f2d18eea2e834fad8b6b8d5c7ae6effca37b97f3a3da2df5de932ee540c060
+FROM ${BASE_IMAGE}
 
 FROM fullstorydev/grpcurl:v1.9.2@sha256:0c3796edc8b6bb1814da2f11a554996237c0dd98380fce182efb1dc44c556ac1 AS grpcurl
 # Make variable available to the build stage
-ARG BASE_IMAGE
 
 # Install:
 # - screen for running the console in a headless server
