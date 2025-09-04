@@ -2,6 +2,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 FROM eclipse-temurin:21-jdk-noble@sha256:71f2d18eea2e834fad8b6b8d5c7ae6effca37b97f3a3da2df5de932ee540c060
+=======
 
 
 # Make variable available to the build stage
