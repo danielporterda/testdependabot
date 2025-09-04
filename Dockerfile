@@ -1,6 +1,8 @@
 # Copyright (c) 2024 Digital Asset (Switzerland) GmbH and/or its affiliates. All rights reserved.
 # SPDX-License-Identifier: Apache-2.0
-FROM eclipse-temurin:21-jdk-noble@sha256:a642cdb56c8cac30d1ad062fdc979aebda08cbdb05ed0e9c13a949f8b1e6d9ea
+
+FROM eclipse-temurin:21-jdk-noble@sha256:71f2d18eea2e834fad8b6b8d5c7ae6effca37b97f3a3da2df5de932ee540c060
+=======
 
 
 # Make variable available to the build stage
