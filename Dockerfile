@@ -3,7 +3,7 @@
 
 FROM eclipse-temurin:21-jdk-noble@sha256:71f2d18eea2e834fad8b6b8d5c7ae6effca37b97f3a3da2df5de932ee540c060
 
-FROM fullstorydev/grpcurl:v1.9.2@sha256:0c3796edc8b6bb1814da2f11a554996237c0dd98380fce182efb1dc44c556ac1 AS grpcurl
+FROM fullstorydev/grpcurl:v1.9.3@sha256:085e183ca334eb4e81ca81ee12cbb2b2737505d1d77f5e33dabc5d066593d998 AS grpcurl
 # Make variable available to the build stage
 ARG BASE_IMAGE
 
